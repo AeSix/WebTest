@@ -1,0 +1,287 @@
+//This css file is built and maintained by AeSix Reficul, copyright 2010, and is available to you under the terms of the GPLv3 - All I ask is that you give me credit for the initial work done, and to build it out as much as you can! 
+//Concept is based on Paramount's Star Trek The Next Generation's "LCARS Terminal Interface" originally developed by Michael Okuda.
+
+h1 {font-size:24pt}
+h2 {font-size:18pt}
+h3 {font-size:14pt}
+h4 {font-size:12pt}
+h5 {font-size:10pt}
+h6 {font-size:8pt}
+p {font-size:12pt}
+a:link {color: #000000; text-decoration: none;}
+a:visited {color: #000000; text-decoration: none;}
+a:hover {color: red; text-decoration: none;}
+a.yellow:link {color: #ff9900; text-decoration: none;}
+a.yellow:visited {color: #ff9900; text-decoration: none;}
+a.yellow:hover {color: #cc99cc; text-decoration: none;}
+body {
+	background:#000000;
+	scrollbar-base-color: #9999ff;
+}
+.main-text-area {
+	//border-top-left-radius: 35px 40px;
+	//border-bottom-left-radius: 35px 40px;
+	width: 760px;
+	height: 75%;
+	overflow:auto;
+	left: 220px;
+	top: 85px;
+	position: absolute;
+	background-color: #000000;
+	color: #ff9900;
+	z-index: 9;
+	//padding: 25px 10px;
+	//opacity: 0.8;
+}
+.top-left-main {
+	border-top-left-radius: 75px 50px;
+	width: 600px;
+	height: 70px;
+	left: 10px;
+	top: 10px;
+	position: absolute;
+	background-color: #9999ff;
+	color: #9999ff;
+	z-index: -1;
+}
+.top-main-background {
+	border-top-left-radius: 35px 40px;
+	width: 780px;
+	height: 40px;
+	left: 200px;
+	top: 40px;
+	position: absolute;
+	background-color: #000000;
+	color: #000000;
+}
+.title {
+	width: 370px;
+	height: 40px;
+	left: 610px;
+	top: 10px;
+	position: absolute;
+	background-color: #000000;
+	color: #ff9900;
+	z-index: -1;
+	text-align: center;
+	vertical-align: bottom;
+	font-family: Courier New, monospace;
+	font-weight: inherit;
+	font-size: 26pt;
+}
+.top-right-cap {
+	border-top-right-radius: 100px;
+	border-bottom-right-radius: 100px;
+	width: 35px;
+	height: 30px;
+	left: 980px;
+	top: 10px;
+	position: absolute;
+	background-color: #9999ff;
+	color: #9999ff;
+	z-index: -1;
+}
+.bottom-right-cap {
+	border-top-right-radius: 100px;
+	border-bottom-right-radius: 100px;
+	width: 35px;
+	height: 30px;
+	left: 980px;
+	bottom: 10px;
+	position: absolute;
+	background-color: #9999ff;
+	color: #9999ff;
+	z-index: -1;
+}
+.left-side-1 {
+	width: 190px;
+	height: 90px;
+	left: 10px;
+	top: 85px;
+	position: absolute;
+	background-color: #9999ff;
+	color: #9999ff;
+	z-index: -1;
+}
+.left-side-2 {
+	width: 190px;
+	height: 30px;
+	left: 10px;
+	top: 180px;
+	position: absolute;
+	background-color: #9999ff;
+	color: #9999ff;
+	z-index: -1;
+}
+.left-side-3 {
+	width: 190px;
+	height: 30px;
+	left: 10px;
+	top: 215px;
+	position: absolute;
+	background-color: #cc99cc;
+	color: #cc99cc;
+	z-index: -1;
+}
+.left-side-4 {
+	width: 190px;
+	height:30px;
+	left: 10px;
+	top: 250px;
+	position: absolute;
+	background-color: #ffcc99;
+	color: #ffcc99;
+	z-index: -1;
+}
+.left-side-5 {
+	width: 190px;
+	height:30px;
+	left: 10px;
+	top: 285px;
+	position: absolute;
+	background-color: #ffcc99;
+	color: #ffcc99;
+	z-index: -1;
+}
+.left-side-6 {
+	width: 190px;
+	height: 210px;
+	left: 10px;
+	top: 320px;
+	position: absolute;
+	background-color: #9999ff;
+	color: #9999ff;
+	z-index: -1;
+}
+.left-side-7 {
+	width: 190px;
+	height: 25%;
+	left: 10px;
+	bottom: 75px;
+	position: absolute;
+	background-color: #9999ff;
+	color: #9999ff;
+	z-index: -2;
+}
+.bottom-lower-logo {
+	width: 30px;
+	height: 30px;
+	left: 240px;
+	bottom: 10px;
+	position: absolute;
+	background-color: #232323;
+	color: #FF9900;
+	z-index: 1;
+}
+.bottom-lower-1 {
+    width: 340px;
+	height: 30px;
+	left: 275px;
+	bottom: 10px;
+	text-align: right;
+	position: absolute;
+	background-color: #cc99cc;
+	color: #cc99cc;
+	z-index: -1;
+}
+.playing {
+    width: 351px;
+	height: 20px;
+	left: 620px;
+	bottom: 10px;
+	text-align: right;
+	position: absolute;
+	padding-top: 10px;
+	padding-right: 4px;
+	background-color: #cc99cc;
+	color: #000000;
+	font-size: .9em;
+	font-variant: small-caps;
+	z-index: -1;
+}
+.left-bottom-main {
+	border-bottom-left-radius: 75px 50px;
+	width: 225px;
+	height: 60px;
+	left: 10px;
+	bottom: 10px;
+	position: absolute;
+	background-color: #9999ff;
+	color: #9999ff;
+	z-index: -1;
+}
+.left-bottom-background {
+	border-bottom-left-radius: 35px 40px;
+	width: 780px;
+	height: 30px;
+	left: 200px;
+	bottom: 40px;
+	position: absolute;
+	background-color: #000000;
+	color: #000000;
+}
+.button-top-1- {
+    border-radius: 100px;
+	width: 140px;
+	height: 25px;
+	left: 770px;
+	padding-right: 0px;
+	top: 45px;
+	position: absolute;
+	background-color: #9999ff;
+	color: #000000;
+	z-index: 0;
+	text-align: center;
+	vertical-align: sub;
+	font-family: Courier New, monospace;
+	font-size: 16pt;
+}
+.button-top-1b- {
+    width: 5px;
+	height: 30px;
+	left: 885px;
+	top: 45px;
+	position: absolute;
+	background-color: #000000;
+	color: #000000;
+	z-index: 3;
+}
+.button-top-1 {
+    border-top-left-radius: 100px;
+	border-bottom-left-radius: 100px;
+	width: 113px;
+	height: 17px;
+	left: 770px;
+	top: 45px;
+	padding-top: 8px;
+	padding-right: 2px;
+	position: absolute;
+	background-color: #9999ff;
+	color: #000000;
+	z-index: 0;
+	text-align: right;
+	text-transform: uppercase;
+	font-family: Courier New, monospace;
+	font-size: 10pt;
+}
+.button-top-1b {
+	border-top-right-radius: 100px;
+	border-bottom-right-radius: 100px;
+    width: 20px;
+	height: 25px;
+	left: 890px;
+	top: 45px;
+	position: absolute;
+	background-color: #9999ff;
+	color: #9999ff;
+	z-index: 3;
+}
+input.clock2 {
+  text-align: center;
+  border: none;
+  position: relative;
+  top: 35px;
+  font: bold 2em sans-serif;
+  color: #ffcc99;
+  background-color: transparent;
+}
