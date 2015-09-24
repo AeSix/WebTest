@@ -1,0 +1,176 @@
+#MIT Licensed. Use at own risk. Etc, etc, etc. 
+#This is for snarfalicious.html
+
+
+html,body {
+	margin: 0px;
+	height: 100%; /* needed for container min-height */
+	background: #020202;
+	color: #666666;
+}
+
+.container {
+	position: relative; /* needed for footer positioning*/
+	margin: 0 auto; /* center, not in IE5 */
+	width: 100%;
+	background: #111122; /* this changed the bkgd color */
+	height: auto !important; /* real browsers */
+	/* height: 100%; */ /* IE6: treated as min-height*/
+	min-height: 100%; /* real browsers */
+	overflow: auto;
+}
+
+.header {
+	padding: .01px; /* .01px is smallest this can be set without ruining vertical alignment */
+}
+
+.content {
+	padding: 1em 1em 5em; /* bottom padding for footer */
+}
+
+.footer {
+	position: absolute;
+	width: 100%; /* Has to stay at 100% - adjust width with container */
+	bottom: 0px; /* stick to bottom */
+}
+
+.dropdownheader {
+	position: relative;
+	top: -1px;
+	width: 80%;
+	left: 9%;
+	height: 21px; 
+	padding: 0% 1%;
+	background: #000000;
+	text-align: center;
+	z-index: 1000
+	border-width: 1px;
+	border-style: none none double none;
+	border-color: deepskyblue;
+	border-radius: 0px 0px 10px 10px;
+}
+.dropdownheader:hover {
+	top: -21px;
+	height: 60px;
+	border-radius: 0px 0px 20px 20px;
+	z-index: 1000;
+	}
+
+.popupfooter {
+	position: relative;
+	width: 90%;
+	left: 4%;
+	padding: 0% 1%;
+	background: silver;
+	border-radius: 10px 10px 0px 0px;
+	text-align: center;
+}
+
+.leftwing {
+	position: fixed;
+	top: 250px;
+	left: -10px;
+	height: 90%;
+	width: 180px;
+	background: #dddddd;
+	border-radius: 0px 50px 10px 0px;
+	box-shadow: 5px -5px 5px lightblue;
+	padding: 15px;
+}
+
+.rightwing {
+	position: fixed;
+	top: 250px;
+	right: -10px;
+	height: 90%;
+	width: 175px;
+	background: #dddddd;
+	border-radius: 50px 0px 0px 10px;
+	box-shadow: -5px -5px 5px lightblue;
+	padding: 15px;
+}
+
+.titlelogo {
+	position: absolute;
+	top: 20px;
+	height: 100px;
+	width: 480px;
+	left: 15%;
+	padding: 0px 10px;
+	#background: red;
+	border-style: none none double none;
+	border-color: deepskyblue;
+	border-width: 4px;
+	border-radius: 0px 0px 40px 5px;
+	text-align: left;
+	color: deepskyblue;
+	z-index: 99;
+}
+
+.quickcontact {
+	position: absolute;
+	top: 20px;
+	height: 100px;
+	width: 280px;
+	right: 15%;
+	padding: 0px 10px;
+	#background: red;
+	border-style: none none double none;
+	border-color: deepskyblue;
+	border-width: 4px;
+	border-radius: 0px 0px 5px 40px;
+	text-align: right;
+	color: lightblue;
+	z-index: 99;
+}
+
+.logosquareleft {
+	position: absolute;
+	top: 35px;
+	height: 200px;
+	width: 200px;
+	left: 10px;
+	z-index: 10;
+	#border-style: solid;
+	#border-color: lightblue;
+	#border-radius: 100px;
+	text-align: center;
+}
+.logosquareright {
+	position: absolute;
+	top: 35px;
+	height: 200px;
+	width: 200px;
+	right: 10px;
+	z-index: 10;
+	#border-style: solid;
+	#border-color: lightblue;
+	#border-radius: 100px;
+	text-align: center;
+}
+.flashheader {
+	position: fixed;
+	top: 24px;
+	height: 395;
+	width: 895;
+	text-align: center;
+	left: 15%;
+	border-radius: 10px;
+	overflow: hidden;
+	background: red;
+}
+.contentiframe {
+	position: fixed;
+	text-align: center;
+	top: 250px;
+	height: 90%;
+	left: 15%;
+	width: 70%;
+	background: #E3E9FF;
+	border-style: double;
+	border-color: deepskyblue;
+	border-radius: 20px;
+	overflow: auto;
+	padding: .5% 0% 0% 0%;
+	box-shadow: 0px 0px 7px lightblue;
+}
